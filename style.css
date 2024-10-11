@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+nav ul {
+  background-color: #333;
+  overflow: hidden;
+  color: white;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+#home {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.dynamic-text {
+  font-size: 24px;
+  color: #FFF;
+  animation: dynamicText 3s infinite;
+}
+
+@keyframes dynamicText {
+  0% { content: "Ekstrakurikuler Berkualitas"; }
+  33% { content: "Prestasi Membanggakan"; }
+  66% { content: "Siswa Berkarakter"; }
+  100% { content: "Ekstrakurikuler Berkualitas"; }
+}
+
+#map {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#clock {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
